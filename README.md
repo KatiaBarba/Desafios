@@ -6,4 +6,4 @@ CLASES:
 02. Condicionales y concatenacion
 03. Loops y tentativas
 04. Buenas practicas en programacion
-05. Desafio
+05. Desafio Numero Secreto
