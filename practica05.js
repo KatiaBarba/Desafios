@@ -1,12 +1,13 @@
 // Declaracion de variables:
-let numeroSecreto = Math.floor(Math.random()*100) + 1;
+let numeroMaximo = 100
+let numeroSecreto = Math.floor(Math.random() * numeroMaximo) + 1;
 let numeroUsuario = 0;
 let intentos = 1;
 let maximosIntentos = 6;
 
 while (numeroUsuario != numeroSecreto)
 {
-    numeroUsuario = parseInt(prompt("Adivina el número entre 1 y 100: "));
+    numeroUsuario = parseInt(prompt(`Adivina el número entre 1 y ${numeroMaximo}: `));
 
     console.log(typeof(numeroUsuario));
     if (numeroUsuario == numeroSecreto) 
