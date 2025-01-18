@@ -2,7 +2,7 @@
 let numeroSecreto = Math.floor(Math.random()*100) + 1;
 let numeroUsuario = 0;
 let intentos = 1;
-let maximosIntentos = 3;
+let maximosIntentos = 10;
 
 while (numeroUsuario != numeroSecreto)
 {
