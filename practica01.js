@@ -1,5 +1,4 @@
-let mensajeDeBienvenida = 'Bienvenido a la aplicación';
-alert('mensajeDeBienvenida');
+// DESAFIOS DE LA CLASE 01 INICIANDO CON JAVASCRIPT
 
 //1.- Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
 //2.- Declara una variable llamada nombre y asígnale el valor "Lua".
