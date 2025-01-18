@@ -1,5 +1,5 @@
 // Declaracion de variables:
-let numeroSecreto = Math.floor(Math.random()*100)+1;
+let numeroSecreto = Math.floor(Math.random()*100) + 1;
 let numeroUsuario = 0;
 let intentos = 1;
 let maximosIntentos = 3;
@@ -29,9 +29,8 @@ while (numeroUsuario != numeroSecreto)
 
         if (intentos > maximosIntentos) 
         {
-            alert(`Llegaste al número máximo de ${maximosIntentos} intentos`);
+            alert(`Lo siento, no acertaste el número, llegaste al número máximo de ${maximosIntentos} intentos`);
             break;
-            alert('Lo siento, no acertaste el número');
         }    
     }
 }
