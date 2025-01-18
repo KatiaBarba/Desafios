@@ -2,7 +2,7 @@
 
 //1.- Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
 
-alert("¡Bienvenida y bienvenido a nuestro sitio web!";
+alert ("¡Bienvenida y bienvenido a nuestro sitio web!");
 
 //2.- Declara una variable llamada nombre y asígnale el valor "Lua".
 
