@@ -108,16 +108,16 @@ else
 y muestra ese número en la consola.*/
 
 let numero = Math.floor(Math.random() * 1000 + 1);
-console.log = (numero)
+console.log = (numero);
 
 /* 12. Utiliza Math.random para generar un número entero entre 1 y 10 
 y muestra ese número en la consola.*/
 
 let numero = Math.floor(Math.random() * 10 + 1);
-console.log = (numero)
+console.log = (numero);
 
 /* 13. Utiliza Math.random para generar un número entero entre 1 y 1000 y 
 muestra ese número en la consola. */
 
 let numero = Math.floor(Math.random() * 1000 + 1);
-console.log = (numero)
+console.log = (numero);;
