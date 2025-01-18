@@ -1,4 +1,4 @@
-Desafio de la clase 3 "Loops y tentativas"
+//Desafio de la clase 3 "Loops y tentativas"
 
 /*Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. 
 Muestra cada número.*/
@@ -6,7 +6,7 @@ let i = 1;
 while (i < 11);
 {
     alert (`El numero es ${i}`);
-    i = i + 1;
+    i += i;
 }
 
 
@@ -17,7 +17,7 @@ let i = 10;
 while (i > 0);
 {
     alert (`El numero es:  ${i}`);
-    i = i - 1;
+    i -= i;
 }
 
 
@@ -27,9 +27,9 @@ utilizando un bucle 'while' en la consola del navegador.*/
 let numeroInicial = prompt ("Inicio de la cuenta regresiva: ");
 let i = numeroInicial
 
-while (i > 0)
+while (i > 0);
 {
-    console.log (i)
+    console.log (i);
     i = i - 1
 }
 

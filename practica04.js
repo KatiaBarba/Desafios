@@ -1,16 +1,30 @@
 //DESAFIOS FINALES
 
 // 1. Crea un programa que utilice console.log para mostrar un mensaje de bienvenida.
+//Opcion 1
+let nombre = prompt ("Cual es tu nombre?")
+console.log (Bienvenido, ${nombre}!)
+
+//Opcion 2
+console.log ("Bienvenido!")
 
 /* 2. Crea una variable llamada "nombre" y asígnale tu nombre. Luego, 
 utiliza console.log para mostrar el mensaje "¡Hola, [tu nombre]!" en la consola del navegador.*/
 
+let nombre = "Katia";
+console.log (`¡Hola, ${nombre}!`);
+
 /* 3. Crea una variable llamada "nombre" y asígnale tu nombre. 
 Luego, utiliza alert para mostrar el mensaje "¡Hola, [tu nombre]!".*/
+let nombre = "Katia";
+alert (`¡Hola, ${nombre}!`);
 
 /* 4. Utiliza prompt y haz la siguiente pregunta: 
 ¿Cuál es el lenguaje de programación que más te gusta?. 
 Luego, almacena la respuesta en una variable y muestra la respuesta en la consola del navegador.*/
+
+let respuesta = prompt (¿Cuál es el lenguaje de programación que más te gusta?)
+console.log(respuesta)
 
 /* 5. Crea una variable llamada "valor1" y otra llamada "valor2", 
 asignándoles valores numéricos de tu elección. 
@@ -18,20 +32,58 @@ Luego, realiza la suma de estos dos valores y almacena el resultado
 en una tercera variable llamada "resultado". Utiliza console.log para mostrar el mensaje 
 "La suma de [valor1] y [valor2] es igual a [resultado]." en la consola.*/
 
+let valor1 = 5
+let valor2 = 10
+resultado = (valor1 + valor2)
+console.log (`La suma de ${valor1} y ${valor2} es igual a ${resultado}`)
+
 /* 6. Crea una variable llamada "valor1" y otra llamada "valor2", asignándoles valores numéricos 
 de tu elección. Luego, realiza la resta de estos dos valores y almacena el resultado 
 en una tercera variable llamada "resultado". Utiliza console.log para mostrar el mensaje 
 "La diferencia entre [valor1] y [valor2] es igual a [resultado]." en la consola.*/
 
+let valor1 = 83
+let valor2 = 15
+resultado = (valor1 - valor2)
+console.log (`La diferencia entre ${valor1} y ${valor2} es igual a ${resultado}`)
+
 /* 7. Pide al usuario que ingrese su edad con prompt. Con base en la edad ingresada, 
 utiliza un if para verificar si la persona es mayor o menor de edad y muestra un mensaje 
 apropiado en la consola.*/
+
+let edad = prompt ("Ingresa tu edad: ")
+if (edad >= 18)
+{
+    console.log('Eres mayor de edad')
+}
+else 
+{
+    console.log('No eres mayor de edad')
+}
 
 /* 8. Crea una variable "numero" y solicita un valor con prompt. 
 Luego, verifica si es positivo, negativo o cero utilizando un if-else y muestra 
 el mensaje correspondiente.*/
 
+let numero = prompt ('Ingresa un valor: ')
+if (numero = 0)
+{
+    alert ('El numero es cero')
+}
+else
+{
+    if (numero > 0)
+    {
+        alert ('El numero es positivo')
+    }
+    else
+    { alert ('El numero es negativo')}
+}
+
 // 9. Utiliza un bucle while para mostrar los números del 1 al 10 en la consola.
+
+
+
 
 /* 10. Crea una variable "nota" y asígnale un valor numérico. 
 Utiliza un if-else para determinar si la nota es mayor o igual a 7 
