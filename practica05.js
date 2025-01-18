@@ -6,7 +6,7 @@ let maximosIntentos = 10;
 
 while (numeroUsuario != numeroSecreto)
 {
-    numeroUsuario = parseInt(prompt("Adivina el número entre 1 y 10: "));
+    numeroUsuario = parseInt(prompt("Adivina el número entre 1 y 100: "));
 
     console.log(typeof(numeroUsuario));
     if (numeroUsuario == numeroSecreto) 
